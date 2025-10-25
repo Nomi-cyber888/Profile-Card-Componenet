@@ -1,0 +1,103 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    padding-top: 70px;
+    background-image: url(bg-pattern-top.svg),url(bg-pattern-bottom.svg);
+    background-repeat: no-repeat no-repeat;
+    background-position: right 50vw bottom 50vh,left 50vw top 50vh;
+    /* background-size: 800px; */
+    
+}
+section{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+.back{
+    background-color: white;
+    width: 350px;
+    height: 388px;
+    border-radius: 13px;
+    /* margin-top: 40%; */
+}
+.bg{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+#pro{
+    width: 100px;
+    border: 7px solid white;
+    border-radius: 70px;
+    margin-left: 34%;
+    position: relative;
+    top: -53px;
+}
+h3{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: hsl(229, 23%, 23%);
+  text-align: center;
+  position: relative;
+  bottom: 65px;
+
+}
+span{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: hsl(227, 10%, 46%);
+    margin: 0;
+    position: relative;
+    left: 70%;
+    bottom: 27%;
+    font-size: 19px; 
+}
+.lon{
+    
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: hsl(227, 10%, 46%);
+    margin: 0;
+    text-align: center;
+    position: relative;
+    bottom: 25%;
+}
+hr{
+    position: relative;
+    bottom: 20%;
+    color: hsl(231, 11%, 76%);
+}
+.h{
+    display: flex;
+
+}
+.h h3{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 15%;
+  position: relative;
+  bottom: 90px;
+}
+.p{
+    display: flex;
+}
+.p p{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: hsl(227, 10%, 46%);
+    position: relative;
+    bottom: 117px;
+    padding-left: 43px;
+    font-size: 15px;
+}
